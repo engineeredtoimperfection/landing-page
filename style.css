@@ -80,3 +80,15 @@
 }
 
 /* ----------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
