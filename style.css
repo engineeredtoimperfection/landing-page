@@ -109,3 +109,12 @@ body {
 .main > * {
     flex: 1;
 }
+
+.hero {
+    display: flex;
+    padding: 0 200px;
+}
+
+.hero > * {
+    flex: 1;
+}
