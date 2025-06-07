@@ -1,0 +1,66 @@
+/* Styling taken from specification */
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext, .nav-item {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up-button, .call-to-action-banner {
+    background-color: #3882F6;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial-text {
+    font-size: 36px;
+
+    /* weight not working with default font; check after installing roboto */
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* -------------- */
+
+
+/* Not specified explicitly but added to match with design */
+
+/* Same background color as .hero and .footer */
+.header {
+    background-color: #1F2937;
+}
+.footer {
+    /* unsure if the color is accurate */
+    color: #F9FAF8;
+}
+
+/* Same font properties as .hero-subtext and .nav-item */
+.hero-image {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* ----------------- */
