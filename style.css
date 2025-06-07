@@ -1,3 +1,11 @@
+/* Reset defaults to 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- */
+
 /* Styling taken from specification */
 
 .hero, .footer {
@@ -53,14 +61,22 @@
     background-color: #1F2937;
 }
 .footer {
-    /* unsure if the color is accurate */
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 /* Same font properties as .hero-subtext and .nav-item */
 .hero-image {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.sign-up-button {
+    /* same color as .header-logo and .hero-title */
+    color: #F9FAF8;
+}
+
+.call-to-action-banner {
+    color: #F9FAF8;
 }
 
 /* ----------------- */
