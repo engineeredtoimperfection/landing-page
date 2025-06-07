@@ -118,3 +118,29 @@ body {
 .hero > * {
     flex: 1;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-content-item {
+    flex-basis: 150px;
+}
+
+.info-image {
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+
+.info-subtext {
+    text-align: center;
+}
