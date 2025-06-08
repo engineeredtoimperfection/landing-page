@@ -1,90 +1,16 @@
-/* Reset defaults to 0 */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* ------------------- */
-
-/* Styling taken from specification */
-
-.hero, .footer {
-    background-color: #1F2937;
-}
-
-.hero-title {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.hero-subtext, .nav-item {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.sign-up-button, .call-to-action-banner {
-    background-color: #3882F6;
-}
-
-.info-title {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
-.testimonial {
-    background-color: #E5E7EB;
-}
-
-.testimonial-text {
-    font-size: 36px;
-
-    /* weight not working with default font; check after installing roboto */
-    font-weight: light;
-    font-style: italic;
-    color: #1F2937;
-}
-
-/* -------------- */
-
-
-/* Not specified explicitly but added to match with design */
-
-/* Same background color as .hero and .footer */
-.header {
-    background-color: #1F2937;
-}
-.footer {
-    color: #E5E7EB;
-}
-
-/* Same font properties as .hero-subtext and .nav-item */
-.hero-image {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.sign-up-button {
-    /* same color as .header-logo and .hero-title */
-    color: #F9FAF8;
-}
-
-.call-to-action-banner {
-    color: #F9FAF8;
-}
-
-/* ----------------- */
-
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
 }
 
 .header {
@@ -93,10 +19,20 @@ body {
     padding: 20px 200px;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .nav-list {
     display: flex;
     list-style-type: none;
     gap: 20px;
+}
+
+.nav-item, .hero-subtext, .hero-image {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .main {
@@ -119,10 +55,26 @@ body {
     flex: 1;
 }
 
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign-up-button, .call-to-action-banner {
+    background-color: #3882F6;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info-content {
@@ -146,10 +98,20 @@ body {
 }
 
 .testimonial {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 425px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+
+    /* weight not working with default font; check after installing roboto */
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .testimonial-attribution {
@@ -164,6 +126,7 @@ body {
 }
 
 .call-to-action-banner {
+    color: #F9FAF8;
     padding: 20px 60px;
     gap: 20px
 }
@@ -178,10 +141,13 @@ body {
 
 .sign-up-button {
     padding: 5px 20px;
+    /* same color as .header-logo and .hero-title */
+    color: #F9FAF8;
 }
 
 .footer {
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    color: #E5E7EB;
 }
