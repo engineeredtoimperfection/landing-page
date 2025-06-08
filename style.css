@@ -156,3 +156,26 @@ body {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.call-to-action, .call-to-action-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-banner {
+    padding: 20px 60px;
+    gap: 20px
+}
+
+.call-to-action-title {
+    font-weight: bold;
+}
+
+.call-to-action-subtext {
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    padding: 5px 20px;
+}
