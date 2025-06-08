@@ -54,6 +54,14 @@ body {
     font-weight: 900;
 }
 
+.hero-image {
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sign-up-button, .call-to-action-banner {
     background-color: #3882F6;
 }
