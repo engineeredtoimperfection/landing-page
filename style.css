@@ -144,3 +144,15 @@ body {
 .info-subtext {
     text-align: center;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 425px;
+}
+
+.testimonial-attribution {
+    align-self: flex-end;
+    font-weight: bold;
+}
