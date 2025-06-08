@@ -179,3 +179,9 @@ body {
 .sign-up-button {
     padding: 5px 20px;
 }
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
