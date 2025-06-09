@@ -55,7 +55,7 @@ body {
 }
 
 .hero-image {
-    background-color: gray;
+    background-color: slategray;
 
     display: flex;
     align-items: center;
