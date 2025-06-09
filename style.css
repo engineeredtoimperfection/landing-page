@@ -101,8 +101,10 @@ body {
 }
 
 .info-content {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 56px;
 }
 
