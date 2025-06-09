@@ -126,6 +126,8 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 425px;
+
+    height: 360px;
 }
 
 .testimonial-text {
@@ -140,6 +142,7 @@ body {
 .testimonial-attribution {
     align-self: flex-end;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .call-to-action, .call-to-action-banner {
