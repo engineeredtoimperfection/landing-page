@@ -6,6 +6,8 @@
 body {
     display: flex;
     flex-direction: column;
+
+    font-family: "Roboto", sans-serif;
 }
 
 .header, .hero, .footer {
@@ -20,6 +22,7 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -132,9 +135,7 @@ body {
 
 .testimonial-text {
     font-size: 36px;
-
-    /* weight not working with default font; check after installing roboto */
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
