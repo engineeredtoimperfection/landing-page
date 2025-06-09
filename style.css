@@ -41,7 +41,10 @@ body {
 
 .hero {
     display: flex;
-    padding: 0 200px;
+    padding: 100px 200px;
+    gap: 40px;
+
+    height: 200px;
 }
 
 .hero > * {
