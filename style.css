@@ -15,7 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 300px 0 300px;
 }
 
 .header-logo {
@@ -46,10 +46,10 @@ body {
 
 .hero {
     display: flex;
-    padding: 100px 200px;
+    padding: 125px 300px;
     gap: 40px;
 
-    height: 200px;
+    height: 220px;
 }
 
 .hero > * {
