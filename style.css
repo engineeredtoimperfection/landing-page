@@ -118,6 +118,10 @@ body {
     flex-basis: 150px;
 }
 
+.info-content-item a {
+    text-decoration: none;
+}
+
 .info-image {
     border: 4px solid #3882F6;
     border-radius: 16px;
